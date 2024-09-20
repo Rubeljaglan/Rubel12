@@ -3,21 +3,29 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Login Page</title>
-    <link rel="stylesheet" href="styles.css">
+    <title>Login Failed</title>
+    <style>
+        body {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            background-color: #f0f2f5;
+            font-family: Arial, sans-serif;
+        }
+        .message {
+            text-align: center;
+        }
+        h2 {
+            color: red;
+        }
+    </style>
 </head>
 <body>
-    <div class="login-container">
-        <div class="login-form">
-            <h2>Login to Your Account</h2>
-<form action="login.html" method="get">
-    <input type="text" placeholder="Email or Phone" required>
-    <input type="password" placeholder="Password" required>
-    <button type="submit">Log In</button>
-</form>
-            <div class="divider"></div>
-            <button class="create-account">Create New Account</button>
-        </div>
+    <div class="message">
+        <h2>Phishing Attempt Detected!</h2>
+        <p>This is a simulated phishing page. Never enter your real credentials on untrusted websites.</p>
+        <p>Go back and stay secure!</p>
     </div>
 </body>
 </html>
